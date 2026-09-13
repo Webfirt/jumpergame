@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jumper Game</title>
+  </head>
+  <body>
+    <div id="startMenu" class="start-menu">
+      <div class="start-card">
+        <h1>Jumper Game</h1>
+        <p>Récupère la clé et ouvre la porte.</p>
+        <button id="startButton" type="button">Start</button>
+      </div>
+    </div>
+
+    <div id="endMenu" class="end-menu hidden">
+      <div class="start-card">
+        <h1>Victoire !</h1>
+        <p>Tu as terminé les 3 niveaux.</p>
+        <button id="endButton" type="button">Rejouer</button>
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <button id="restartButton" type="button">Rejouer</button>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
